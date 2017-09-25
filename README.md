@@ -1,9 +1,9 @@
-#SYMFONY 2.8 LANDING PAGE EXAMPLE
+SYMFONY 2.8 LANDING PAGE EXAMPLE
 ==================================
 
 Symfony project created by company Dapda.com skills test.  
 
-##INSTALLATION
+INSTALLATION
 
 1.- Clone de project
 
