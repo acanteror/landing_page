@@ -1,0 +1,6 @@
+{#<selector id="messageForm_vehicle" name="messageForm[vehicle]">#}
+    <option>Selecciona...</option>
+    {% for vehicle in vehicles %}
+        <option value="{{ vehicle.id }}">{{ vehicle.name  }}</option>
+    {% endfor %}
+{#</selector>#}

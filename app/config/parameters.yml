@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: landing
+    database_user: root
+    database_password: null
+    mailer_transport: gmail
+    mailer_user: landing.page.opel.comercial@gmail.com
+    mailer_password: Opel1234.
+    secret: 414b4f7fe2860f25228b0e387c9b5971d52fb656
+    mailer_host: 127.0.0.1

@@ -1,0 +1,30 @@
+services:
+#    landing.example:
+#        class: LandingBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+    landing.manager.mailer:
+        class: LandingBundle\Manager\Mailer
+        arguments: ['@mailer','%mailer_user%','@templating', '@service_container']
+
+    landing.manager.message:
+           class: LandingBundle\Manager\MessageManager
+           arguments: ['@doctrine.orm.entity_manager']
+
+    landing.manager.type_vehicle:
+           class: LandingBundle\Manager\TypeVehicleManager
+           arguments: ['@doctrine.orm.entity_manager']
+
+    landing.manager.vehicle:
+           class: LandingBundle\Manager\VehicleManager
+           arguments: ['@doctrine.orm.entity_manager']
+
+    landing.manager.preference:
+           class: LandingBundle\Manager\PreferenceManager
+           arguments: ['@doctrine.orm.entity_manager']
+
+    message.listener:
+            class: LandingBundle\Listener\MessageListener
+            arguments: ["@service_container"]
+            tags:
+                - { name: doctrine.event_listener, event: postPersist, method: postPersist }
