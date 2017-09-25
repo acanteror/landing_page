@@ -13,7 +13,7 @@ INSTALLATION
 
 3.- Ensure you have a mysql run in your local
 
-4.- Open parameters.yml file and copy
+4.- Open parameters.yml file and update it
 
 ```
 parameters:
