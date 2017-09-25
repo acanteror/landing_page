@@ -25,6 +25,8 @@ parameters:
     mailer_transport: gmail 
     mailer_user: landing.page.opel.comercial@gmail.com //or your gmail account
     mailer_password: Opel1234. //or your gmail account password
+    secret: sfjañsdjfasñdjff0asd8f0asd8f0asd9mf8a0sd9fa
+    mailer_host: 127.0.0.1
 ```
 
 5.- If you decide to use a new database (landing), create it
