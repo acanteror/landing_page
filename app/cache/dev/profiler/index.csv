@@ -159,3 +159,4 @@ c57b16,127.0.0.1,GET,http://localhost:8000/promocion/,1506351798,,200
 7fb6e2,127.0.0.1,POST,http://localhost:8000/promocion/save,1506352067,,302
 528ae9,127.0.0.1,GET,http://localhost:8000/promocion/gracias-promocion,1506352070,,200
 135393,127.0.0.1,GET,http://localhost:8000/promocion/,1506352952,,200
+4429fd,127.0.0.1,GET,http://localhost:8000/promocion/,1506354114,,200
