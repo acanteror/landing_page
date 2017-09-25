@@ -17,8 +17,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
             new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle(),
-            new LandingBundle\LandingBundle(),
-            new FOS\JsRoutingBundle\FOSJsRoutingBundle()
+            new LandingBundle\LandingBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

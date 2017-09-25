@@ -15,7 +15,6 @@ return array(
     'Ladybug\\Plugin\\Extra\\' => array($vendorDir . '/raulfraile/ladybug-themes'),
     'Ladybug\\Plugin' => array($vendorDir . '/raulfraile/ladybug-plugins', $vendorDir . '/raulfraile/ladybug/data/plugins'),
     'Ladybug' => array($vendorDir . '/raulfraile/ladybug-installer/src', $vendorDir . '/raulfraile/ladybug/src'),
-    'JsonpCallbackValidator' => array($vendorDir . '/willdurand/jsonp-callback-validator/src'),
     'Doctrine\\ORM\\' => array($vendorDir . '/doctrine/orm/lib'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),

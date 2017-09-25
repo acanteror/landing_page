@@ -73,10 +73,6 @@ class ComposerStaticInit8d9551bec162583cd7091597f4a8195d
         array (
             'Incenteev\\ParameterHandler\\' => 27,
         ),
-        'F' => 
-        array (
-            'FOS\\JsRoutingBundle\\' => 20,
-        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -198,10 +194,6 @@ class ComposerStaticInit8d9551bec162583cd7091597f4a8195d
         array (
             0 => __DIR__ . '/..' . '/incenteev/composer-parameter-handler',
         ),
-        'FOS\\JsRoutingBundle\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/friendsofsymfony/jsrouting-bundle',
-        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -286,13 +278,6 @@ class ComposerStaticInit8d9551bec162583cd7091597f4a8195d
             array (
                 0 => __DIR__ . '/..' . '/raulfraile/ladybug-installer/src',
                 1 => __DIR__ . '/..' . '/raulfraile/ladybug/src',
-            ),
-        ),
-        'J' => 
-        array (
-            'JsonpCallbackValidator' => 
-            array (
-                0 => __DIR__ . '/..' . '/willdurand/jsonp-callback-validator/src',
             ),
         ),
         'D' => 
