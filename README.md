@@ -19,13 +19,13 @@ INSTALLATION
 parameters:
     database_host: 127.0.0.1
     database_port: null
-    database_name: landing //or your database name
+    database_name: landing #or your database name
     database_user: root
     database_password: null
     mailer_transport: gmail 
-    mailer_user: landing.page.opel.comercial@gmail.com //or your gmail account
-    mailer_password: Opel1234. //or your gmail account password
-    secret: sfjañsdjfasñdjff0asd8f0asd8f0asd9mf8a0sd9fa
+    mailer_user: landing.page.opel.comercial@gmail.com #or your gmail account
+    mailer_password: Opel1234. #or your gmail account password
+    secret: asecrettoken
     mailer_host: 127.0.0.1
 ```
 
